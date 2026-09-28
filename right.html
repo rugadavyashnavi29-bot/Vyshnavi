@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row;
+            height:50px;
+            border:solid;
+            width:300px;
+        }
+        .item1{
+            background-color: pink;
+            width:100px;
+            height:50px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .text1{
+            background-color: black;
+            color:white;
+        }
+        .item2{
+            background-color: lightblue;
+            width:200px;
+            height:50px;
+        }
+        .container1{
+            margin-top: 50px;
+            display: flex;
+            border:solid;
+            width:300px;
+            dispaly:flex;
+            flex-direction: row;
+        }
+        .black{
+            background-color:black;
+            color:white;
+            width:fit-content;
+            
+        }
+        .item4{
+            background-color: lightpink;
+            width:100px;
+            height:50px;
+        }
+        .item3{
+        width:200px;
+        background: lightblue;
+        height:50px;
+        display:flex;
+        flex-direction: column;
+        }
+        .row1{
+            height:20px;
+            margin:0;
+            padding:0;
+        }
+        .row2{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+           width:100%;
+           margin:0;
+           padding:0;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="item1">
+                <div class="text1">row1</div>
+            </div>
+            <div class="item2"></div>
+        </div>
+
+        <div class="container1">
+            <div class="item4"></div>
+            <div class="item3">
+                <div class="row1">row1</div>
+                <div class="row2">
+                    <div class="black">row2</div>
+                    <div class="black">row2</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</head>
+</html>

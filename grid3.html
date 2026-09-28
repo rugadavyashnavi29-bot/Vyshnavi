@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <style>
+            .img{
+                width:300px;
+                height:300px;
+                object-fit: cover;
+                object-position:right;
+                
+            }
+            .n{
+                font-size: 20px;
+                margin-top:5px;
+                margin-bottom:0;
+                margin-left:5px;
+            }
+            .pro{
+                border-radius: 50px;
+                margin-left:5px;
+                width:35px;
+                height: 40px;
+            }
+            .box{
+                width:300px;
+                border-color: rgb(147, 137, 137);
+                box-shadow: 3px 3px 5px;
+                border:1px solid rgb(148, 140, 140);
+            }
+            
+            .profile{
+                border-radius: 40px;
+            }
+            .p{
+                color:rgb(159, 142, 142);
+                margin:10px
+                margin-left:20px;
+            }
+            .protext{
+                display:grid;
+                grid-template-columns: 50px 1fr;
+            }
+            .b{
+                margin-top: 10px;
+                background-color: blue;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-top: 2px;
+                color:white;
+                width:100px;
+                height:35px;
+                border-radius: 5px;
+                border:none;
+            }
+        </style>
+        <div style="display:grid;
+        grid-template-columns: 400px 400px 1fr;">
+        <div class="box">
+            <div>
+            <img class="img" src="thumbnails/myimage.jpg.jpeg" />
+            </div>
+            <p class="n"><b>Chinnu</b></p>
+            <div style="display:grid;grid-template-columns: 200px 1fr;margin-top: 5px;";>
+                <div class="protext">
+                <div class="profile">
+                <img class="pro" src="profiles/channel-4.jpeg" />
+                </div>
+                <div class="text">
+                    <p class="p">2 mutual friends</p>
+                </div>
+                </div>
+            </div>
+            <button class="b">Add friends</button>
+        </div>
+
+        <div class="box">
+            <div>
+            <img class="img" src="thumbnails/amma.jpeg" />
+            </div>
+            <p class="n"><b>Amma</b></p>
+            <div style="display:grid;grid-template-columns: 200px 1fr;margin-top: 5px;";>
+                <div class="protext">
+                <div class="profile">
+                <img class="pro" src="profiles/channel-3.jpeg" />
+                </div>
+                <div class="text">
+                    <p class="p">6 mutual friends</p>
+                </div>
+                </div>
+            </div>
+            <button class="b">Add friends</button>
+        </div>
+
+        <div class="box">
+            <div>
+            <img class="img" src="thumbnails/img.jpg.jpeg" />
+            </div>
+            <p class="n"><b>kannaya</b></p>
+            <div style="display:grid;grid-template-columns: 200px 1fr;margin-top: 5px;";>
+                <div class="protext">
+                <div class="profile">
+                <img class="pro" src="profiles/channel-5.jpeg" />
+                </div>
+                <div class="text">
+                    <p class="p">10 mutual friends</p>
+                </div>
+                </div>
+            </div>
+            <button class="b">Add friends</button>
+        </div>
+        </div>
+    </body>
+</html>
+        
